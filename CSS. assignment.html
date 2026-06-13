@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSignmnet</title>
+    <link rel="icon"  type="image/png"  href="./assets/images/favicon-32x32.png">
+    <style>
+        :root{
+            --primary:#202844;
+        }
+        
+        html,body{
+            background: rgb(15, 5, 33);
+            height: 120%;
+            width: 100%;
+    
+            }
+            .nav{
+                border: 1px;
+                width: 80vw;
+                height: 60px;
+                background-color:#202844;
+                border-radius: 20px;
+                margin: 50px 30px 10px 130px;
+                padding: 19px 0px 0px 30px;
+                
+            }
+            .sun{
+                border: 1px;
+                width:20px;
+                height: 20px;
+                padding:10px;
+                background-color:  #2f3a63;
+                position: relative;
+                bottom: 43px;
+            
+                margin:0px 20px  150px 1150px;
+                border-radius: 5px;
+            }
+            
+            .h{
+                color: azure;
+                margin:50px 0px 0px 60px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                position: relative;
+                top:30px;
+            
+            }
+            .but{
+                gap:10px;
+                margin-bottom:20px;
+                display: inline-block;
+                margin-left: 1200px;
+                margin-bottom: 30px;                 
+            }
+            .all{
+                padding: 10px 17px;
+                border: 1px;
+                background-color: var(--primary);
+                border-radius: 15px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            }
+            .active{
+                padding: 10px 17px;
+                border: 1px;
+                background-color: var(--primary);
+                border-radius: 15px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            }
+            .inactive{
+                 padding: 10px 17px;
+                border: 1px;
+                background-color: var(--primary);
+                border-radius: 15px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            }
+            
+            .all:hover{
+                background-color: crimson;
+                cursor: pointer;
+            }
+            .active:hover{
+                background-color: crimson;
+                cursor: pointer;
+            }
+            .inactive:hover{
+                background-color: crimson;
+                cursor: pointer;
+
+            }
+            .DevLens{
+               width:300px;
+               height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+  
+}
+            
+                            
+            .StyleSpy{
+                 width:300px;
+            height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .SpeedBoost{
+                 width:300px;
+                 height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .JSONWizard{
+                 width:300px;
+                 height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .TabMasterPro{
+                 width:300px;
+                 height:170px;
+            background:#1f2942;
+            color:white;
+            padding:25px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .ViewportBuddy{
+                width:300px;
+                height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .MarkupNotes{
+                  width:300px;
+                  height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .GridGuides{
+                width:300px;
+                height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .PalettePicker{
+                width:300px;
+                height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .LinkChecker{
+                width:300px;
+                height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+            .DOMSnapshot{
+                width:300px;
+                height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;  
+            }
+            .ConsolePlus{
+                  width:300px;
+                  height: 170px;
+            background:#1f2942;
+            color:white;
+            padding:20px;
+            border-radius:15px;
+            border:1px solid #3b4566;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            }
+
+
+            h3{
+               margin-bottom:17px;
+               margin-top: 2px;
+                font-size:16px; 
+            }
+            p{
+                color:#b8c0d4;
+                line-height:1.5;
+                margin-bottom:50px;
+                font-size: 13px;
+            }
+            .bu{
+                background:transparent;
+                color:white;
+                border:1px solid #b8c0d4;
+                padding:8px 18px;
+                 border-radius:20px;
+                cursor:pointer;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                position: relative;
+                right:60px;
+              
+              
+
+    
+                    
+
+               
+            }
+            .bu:hover{
+                background-color: red;
+            }
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center; 
+                align-items: center;     
+                gap: 10px;
+            }
+            
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    left: 90px;
+    bottom:5px;
+    
+}
+
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.slider::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .slider{
+    background-color: #ff6154;
+}
+
+input:checked + .slider::before{
+    transform: translateX(24px);
+}
+
+
+ @media screen and (max-width: 599px){
+            body{
+                background-color: rgb(244, 240, 240);
+            }
+        }
+        h2,h3,p{
+            color: antiquewhite;
+        }
+
+/* 
+        @media screen and (min-width: 600px) and (max-width: 900px){
+
+            body{
+                background-color: blue;
+            }
+        }
+
+        @media  screen and (min-width: 900px) {
+
+            body{
+                background-color: bisque;
+                
+            }
+
+        } */
+       
+    </style>
+</head>
+<body >
+    <div class="nav">
+        <img src="./assets/images/logo.svg" alt="company logo" class="com">
+        <img src="./assets/images/icon-sun.svg" alt="" class="sun" >
+        </div>
+        <div class="exten">
+            <h2 class="h">Extensions List</h2>
+        </div>
+            <div class="but">
+            <button class=" all">ALL</button>
+            <button class="  active">Active</button>
+            <button class=" inactive">Inactive</button>
+            </div>
+        >
+        <div>
+            <div class="container">
+        <div class="DevLens">
+            <img src="./assets/images/logo-devlens.svg" alt="devlens">
+            <div class="box">
+            <h3>DevLens</h3>
+            <p>Quickly inspect page layouts and visualize element boundaries.</p>
+            <button class="bu">Remove</button> 
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            <!-- -->
+        </div>
+        <div class="StyleSpy">
+            <img src="./assets/images/logo-style-spy.svg" alt="devlens">
+            <div class="box">
+            <h3>StyleSpy</h3>
+            <p>Instantly analyze and copy CSS from any webpage element.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="SpeedBoost">
+            <img src="./assets/images/logo-speed-boost.svg" alt="devlens">
+            <div class="box">
+            <h3>SpeedBoost</h3>
+            <p>Optimizes browser resource usage to accelerate page loading.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="JSONWizard">
+            <img src="./assets/images/logo-json-wizard.svg" alt="devlens">
+            <div class="box">
+            <h3>DevLens</h3>
+            <p>Quickly inspect page layouts and visualize element boundaries.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="TabMasterPro">
+            <img src="./assets/images/logo-tab-master-pro.svg" alt="devlens">
+            <div class="box">
+            <h3>TabMaster Pro</h3>
+            <p>Organizes browser tabs into groups and sessions.</p>
+             <button class="bu">Remove</button>
+              <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+           
+        </div>
+        <div class="ViewportBuddy">
+            <img src="./assets/images/logo-viewport-buddy.svg" alt="devlens">
+            <div class="box">
+            <h3>ViewportBuddy</h3>
+            <p>Simulates various screen resolutions directly within the browser.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="MarkupNotes">
+            <img src="./assets/images/logo-devlens.svg" alt="devlens">
+            <div class="box">
+            <h3>Markup Notes</h3>
+            <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="GridGuides">
+            <img src="./assets/images/logo-grid-guides.svg" alt="devlens">
+            <div class="box">
+            <h3>GridGuides</h3>
+            <p>Overlay customizable grids and alignment guides on any webpage.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="PalettePicker">
+            <img src="./assets/images/logo-palette-picker.svg" alt="devlens">
+            <div class="box">
+            <h3>Palette Picker</h3>
+            <p>Instantly extracts color palettes from any webpage</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="LinkChecker">
+            <img src="./assets/images/logo-link-checker.svg" alt="devlens">
+            <div class="box">
+            <h3>LinkChecker</h3>
+            <p>Scans and highlights broken links on any page.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="DOMSnapshot">
+            <img src="./assets/images/logo-dom-snapshot.svg" alt="devlens">
+            <div class="box">
+            <h3>DOM Snapshot</h3>
+            <p>Scans and highlights broken links on any page.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        <div class="ConsolePlus">
+            <img src="./assets/images/logo-console-plus.svg" alt="devlens">
+            <div class="box">
+            <h3>ConsolePlus</h3>
+            <p>Scans and highlights broken links on any page.</p>
+            <button class="bu">Remove</button>
+             <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </div>
+            
+        </div>
+        
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        
+</body>
+</html>
